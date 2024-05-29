@@ -51,7 +51,4 @@ class SSet:
         indices = self.suffix_tree.search(substring)
         return [self.words[i] for i in indices]
 
-# Пример использования
-# sset = SSet('small-words.txt')
-# sset.load()
-# print(sset.search('ab'))
+
